@@ -1,5 +1,4 @@
-import math
-import sys
+import math,sys
 num=int(input("Introduce el numero: "))
 esPrimo=True;
 
