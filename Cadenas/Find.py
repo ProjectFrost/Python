@@ -1,11 +1,11 @@
 cadena=input("Introduce la cadena: ")
-subcadena=(input("Introduce el caracter a encontrar: "))[:1] #Coje el primer caracter
+caracter=(input("Introduce el caracter a encontrar: "))[:1] #Coje el primer caracter
 contador=0
 
 for i in cadena:
-    if subcadena == cadena[i]:
+    if caracter == cadena[i]:
         contador+=1
         print(f"Posicion en la cadena --> {i}")
             
 
-print(f"El caracter {subcadena} aparece {contador} veces")
+print(f"El caracter {caracter} aparece {contador} veces")
