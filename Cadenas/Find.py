@@ -1,9 +1,10 @@
 cadena=input("Introduce la cadena: ")
-subcadena=input("Introduce la subcadena: ")
-start=0;
+subcadena=(input("Introduce el caracter a encontrar: "))[:1]
+contador=0
 
-for i in range(start,len(cadena)):
-    for j in subcadena:
-        if subcadena[j] == cadena[i]:
-            d
-print(f"¿Empieza la cadena con la subcadena?: {cadena.startswith(subcadena)}")
+for i in range(0,len(cadena)):
+    if subcadena == cadena[i]:
+        contador+=1
+            
+
+print(f"El caracter {subcadena} aparece {contador} veces")
